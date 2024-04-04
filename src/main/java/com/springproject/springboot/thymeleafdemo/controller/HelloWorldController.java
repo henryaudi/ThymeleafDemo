@@ -45,7 +45,7 @@ public class HelloWorldController {
         return "helloworld";
     }
 
-    @RequestMapping("/processFormVersionThree")
+    @GetMapping("/processFormVersionThree")
     public String processFormVersionThree(@RequestParam("studentName") String theName,
                                           Model model) {
 
